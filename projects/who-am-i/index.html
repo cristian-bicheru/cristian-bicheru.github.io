@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<title>Cristian Bicheru</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/css/tahoma.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style>
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-family: "Tahoma";
+      font-size: 3.8vw;
+      letter-spacing: 2px;
+    }
+    h3 {
+      font-family: "Tahoma";
+      font-size: 3.2vw;
+      letter-spacing: 0.7px;
+      color: #303030;
+    }
+    h4 {
+      font-size: 3vw
+    }
+    .header {
+      top: 0;
+      padding: 10px 16px;
+      background: #555;
+      color: #f1f1f1;
+      width:100%;
+    }
+    th, td {
+        padding: 8px;
+    }
+    icon {
+      height = 20vw;
+      width = 20vw;
+    }
+    .content {
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+    body {
+      background: #d3d7ee;
+      background: radial-gradient(ellipse at center, #e0f0ff 0%,#bfdaff 50%,#e0f0ff 100%);
+    }
+    .section {
+      margin-bottom: 64px;
+      text-align: left;
+    }
+    .title {
+      margin-bottom: 64px;
+      margin-top: 64px;
+      text-align: center;
+      color: #606060;
+    }
+}
+@media only screen and (min-width: 600px) {
+    h1 {
+      font-family: "Tahoma";
+      font-size: 3.5vw;
+      letter-spacing: 2px;
+    }
+    h3 {
+      font-family: "Tahoma";
+      font-size: 2.3vw;
+      color: #303030;
+    }
+    h4 {
+      font-size: 3vw
+    }
+    .header {
+      top: 0;
+      padding: 10px 16px;
+      background: #555;
+      color: #f1f1f1;
+      width:100%;
+    }
+    th, td {
+        padding: 8px;
+    }
+    icon {
+      height = 20vw;
+      width = 20vw;
+    }
+    .content {
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+    body {
+      background: #d3d7ee;
+      background: radial-gradient(ellipse at center, #e0f0ff 0%,#bfdaff 50%,#e0f0ff 100%);
+    }
+    .section {
+      margin-bottom: 64px;
+      text-align: left;
+    }
+    .title {
+      margin-bottom: 64px;
+      margin-top: 64px;
+      text-align: center;
+      color: #606060;
+    }
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+      font-family: "Tahoma";
+      font-size: 2.9vw;
+      letter-spacing: 2px;
+    }
+    h3 {
+      font-family: "Tahoma";
+      font-size: 1.9vw;
+      color: #303030;
+    }
+    h4 {
+      font-size: 1.9vw
+    }
+    .header {
+      top: 0;
+      padding: 10px 16px;
+      background: #555;
+      color: #f1f1f1;
+      width:100%;
+    }
+    th, td {
+        padding: 8px;
+    }
+    icon {
+      height = 20vw;
+      width = 20vw;
+    }
+    .content {
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+    body {
+      background: #d3d7ee;
+      background: radial-gradient(ellipse at center, #e0f0ff 0%,#bfdaff 50%,#e0f0ff 100%);
+    }
+    .section {
+      margin-bottom: 64px;
+      text-align: left;
+    }
+    .title {
+      margin-bottom: 64px;
+      margin-top: 64px;
+      text-align: center;
+      color: #606060;
+    }
+}
+@media only screen and (min-width: 992px) {
+    h1 {
+      font-family: "Tahoma";
+      font-size: 2.6vw;
+      letter-spacing: 2px;
+    }
+    h3 {
+      font-family: "Tahoma";
+      font-size: 1.7vw;
+      color: #303030;
+    }
+    h4 {
+      font-size: 1.7vw
+    }
+    .header {
+      top: 0;
+      padding: 10px 16px;
+      background: #555;
+      color: #f1f1f1;
+      width:100%;
+    }
+    th, td {
+        padding: 8px;
+    }
+    icon {
+      height = 20vw;
+      width = 20vw;
+    }
+    .content {
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+    body {
+      background: #d3d7ee;
+      background: radial-gradient(ellipse at center, #e0f0ff 0%,#bfdaff 50%,#e0f0ff 100%);
+    }
+    .section {
+      margin-bottom: 64px;
+      text-align: left;
+    }
+    .title {
+      margin-bottom: 64px;
+      margin-top: 64px;
+      text-align: center;
+      color: #606060;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    h1 {
+      font-family: "Tahoma";
+      font-size: 1.4vw;
+      letter-spacing: 2px;
+    }
+    h3 {
+      font-family: "Tahoma";
+      font-size: 1.1vw;
+      color: #303030;
+    }
+    h4 {
+      font-size: 1vw
+    }
+    .header {
+      top: 0;
+      padding: 10px 16px;
+      background: #555;
+      color: #f1f1f1;
+      width:100%;
+    }
+    th, td {
+        padding: 8px;
+    }
+    icon {
+      height = 20vw;
+      width = 20vw;
+    }
+    .content {
+      max-width: 72%;
+      margin: auto;
+      text-align: center;
+    }
+    body {
+      background: #d3d7ee;
+      background: radial-gradient(ellipse at center, #e0f0ff 0%,#bfdaff 50%,#e0f0ff 100%);
+    }
+    .section {
+      margin-bottom: 128px;
+      text-align: left;
+    }
+    .title {
+      margin-bottom: 128px;
+      margin-top: 128px;
+      text-align: center;
+      color: #606060;
+    }
+}
+table#t01 tr:nth-child(even) {
+    background-color: rgba(224,224,224,0.3);
+}
+table#t01 tr:nth-child(odd) {
+   background-color: rgba(255,255,255,0.2);
+}
+</style>
+<body>
+
+<div class="header" id="headerMoving" style="display:none;position:fixed;opacity:0.8;text-align:left;max-width:100%">
+  <h4 style="letter-spacing:2px">Cristian Bicheru - Who Am I Summative Project</h4>
+</div>
+
+<div class="content" style="z-index:-1;position:relative">
+
+<header class="title">
+  <h2>Cristian Bicheru</h2>
+  <h2 class="w3-medium">High School Student</h2>
+</header>
+
+<!-- Photo Grid -->
+<div class="section">
+    <h1 style="padding:0px 10px"> What Is This Site? </h1>
+    <h3 style="text-align:justify"> This site is dedicated to my Who Am I summative project, it will contain
+    lots of information about me. This includes my Myers-Briggs personality type, my learning styles, etc.</h3>
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Character Quiz </h1>
+    <div style="clear:both">
+        <div style="float:left;max-width:90%">
+            <h3 style="text-align:justify"> For the character quiz, I got "Tweety". This means that I am loyal and a 'best friend',                     that I'm witty and calm most of the time, and that people can really count on me. This can help me in school because knowing               how other people see me can help me work more efficiently in groups.</h3>
+        </div>
+        <div style="float:right;padding:16px">
+            <img src="/images/tweety.png" class="icon">
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Learning Styles </h1>
+    <h3 style="text-align:justify"> The learning styles quiz said that I am a 43% visual learner, 29% auditory learner, and 28%
+     kinesthetic learner. This means that I like to take detailed notes, I like to sit near the front, and I like to turn concepts 
+    into charts and diagrams. In order to learn and retain information better in school I should: underline or highlight key ideas 
+    in my notes, make charts and diagrams, and use graphic organizers.</h3>    
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> True Colors </h1>
+    <h3 style="text-align:justify"> The true colors quiz said that my true color is green. Green people are 'thinkers'. They are
+     self sufficient and independant, rely on logic, and do research/think before making decisions. This will help me in school 
+    since knowing more about my personality will help me in group projects or assignments.</h3>    
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Myers-Briggs Personality </h1>
+    <h3 style="text-align:justify"> The Myers-Briggs personailty test said that my personality code is INTP. This stands for 
+    introverted, intuiting, thinking, and percieving. Some key descriptions of my personality are that I prefer to work in smaller 
+    groups, I use intuition when completing tasks, and that I am fair and use my brain when making decisions. In general, 
+    knowing my own personality can help me maximize my contributions when working in a group setting.</h3>    
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Multiple Intelligences </h1>
+    <h3 style="text-align:justify"> The multiple intelligences quiz said that I have strong logic/math skills, intrapersonal skills, and       kinesthetic skills. This means that I enjoy exploring relations between things, understanding how things work, it also means I have a
+    good sense of myself, and that I like to think things over and spend time by myself. Additionally, it means I like to move and might       be good at sports. This can help me a lot in school since it can help me choose a job field and improve my learning ability. </h3>    
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Intrests </h1>
+    <h3 style="text-align:justify"> According to the interests quiz, my interest type is "The Investigator". This means that I enjoy           investigative-style jobs. Investigators are typically inquisitive, organized, and have a knack for observing fine details. According       to the quiz, when you need a detailed, systematic analysis with well-reasoned conclusions, ask an investigator! I think this               description does suit me well. I think I would enjoy jobs such as being a data scientist, programmer, or researcher. This knowledge       can help me choose the right career path for my future. </h3>    
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Knowledge </h1>
+    <h3 style="text-align:justify"> The knowledge quiz said that I'm skilled in Business, Computers, and Mathematics (top 3). This means       that I am most skilled/interested in those particular fields. Knowing this will be helpful since it will help influence which career       path I will take.</h3> 
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Motivations </h1>
+    <h3 style="text-align:justify"> From the motivations quiz, I got that my primary motivation factor is achievement, and my second           motivation factor is independance. This means that I'm driven by achievement in my everyday life, and I enjoy doing things alone. I       guess I agree with the first part, but the second part is only true sometimes. For small projects, I don't like working in teams since     it's inefficient, however in larger projects, teamwork helps a ton. Knowing my motivations is extremely important since it will let me make goals which are easier to achieve (by making it so that I have more motivation to complete them).</h3> 
+</div>
+
+<div class="section">
+    <h1 style="padding:0px 10px"> Transferable Skills </h1>
+    <h3 style="text-align:justify"> From the transferable skills handout, I got that I have strong problem solving and leadership skills.      I've become an executive for two clubs this year, mathletes and computer science. This demonstrates that I enjoy and have skills in        leadership. I also thoroughly enjoy and practice math and computer science. These fields require lots of problem solving, which has        developed my problem solving skillset. Knowing my skills will help me make the most of my time in high school, by working on my            strengths and improving them.</h3> 
+</div>    
+    
+</div>
+</div>
+<div class="content" style="max-width:90%">
+<div class="section">
+    <h1 style="padding:0px 10px">Contact:</h1>
+    <div style="clear:both">
+        <div style="float:left;padding:16px">
+            <img src="/images/mail.svg" class="icon">
+        </div>
+        <div style="float:left;padding:10px">
+            <h3><a href="mailto:c.bicheru0@gmail.com">c.bicheru0@gmail.com</a></h3>
+        </div>
+    </div>
+    <div style="clear:both">
+        <div style="float:left;padding:16px">
+            <img src="/images/facebook.svg" class="icon">
+        </div>
+        <div style="float:left;padding:10px">
+            <h3><a href="https://www.facebook.com/cccristian.b" target="_blank">https://www.facebook.com/cccristian.b</a></h3>
+        </div>
+    </div>
+    <div style="clear:both">
+        <div style="float:left;padding:16px">
+            <img src="/images/github.svg" class="icon">
+        </div>
+        <div style="float:left;padding:10px">
+            <h3><a href="https://github.com/cristian-bicheru" target="_blank">https://github.com/cristian-bicheru</a></h3>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+function fadein(){
+    jQuery("#headerMoving").fadeIn();
+};
+
+function fadeout(){
+    jQuery("#headerMoving").fadeOut();
+};
+
+window.onscroll = function() {moveHeader()};
+
+function moveHeader() {
+  if (window.pageYOffset > 400) {
+    fadein()
+  } else {
+    fadeout()
+  }
+}
+</script>
+</html>
