@@ -296,7 +296,7 @@ function fadeout(){
 window.onscroll = function() {moveHeader()};
 
 function moveHeader() {
-  if (window.pageYOffset > 0) {
+  if (window.pageYOffset > -1) {
     fadein()
   } else {
     fadeout()
