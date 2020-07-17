@@ -84,20 +84,50 @@ layout: default
       border: 1px solid #527f0e;
       box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
     }
+    .data-cell {
+      vertical-align: top;
+      height: 20vh;
+    }
+    .cell-image {
+      display:block;
+      max-height: 18vh;
+      max-width: 80%;
+      margin:auto;
+    }
+    table td {
+      width: 50%;
+    }
 </style>
 
 # About Me
 {: style="text-align: center;"}
-I'm a passsionate, aspiring software developer from Waterloo, Ontario in my senior year at Sir John A. Macdonald Secondary School. I'm currently seeking an internship or employment to gain practical experience and to expand my skillset.
+I'm a passsionate, aspiring software engineer from Waterloo, Ontario in my senior year at Sir John A. Macdonald Secondary School. I'm currently seeking an internship or employment to gain practical experience and to expand my skillset.
+
+<div style="height:50px;"></div>
 
 # Tools and Technologies
 {: style="text-align: center;"}
 
-|:-:|:-:|
-| C <br> ![C](assets/images/c.png){: style="display:block; width:50%; margin-left:auto; margin-right:auto;"} | C++ <br> ![C++](assets/images/cpp.png){: style="display:block; width:50%; margin-left:auto; margin-right:auto;"} |
-| Python <br> ![Python](assets/images/python.png){: style="display:block; width:50%; margin-left:auto; margin-right:auto;"} | PyTorch <br> ![PyTorch](assets/images/pytorch.png){: style="display:block; width:50%; margin-left:auto; margin-right:auto;"} |
-| TensorFlow <br> ![TensorFlow](assets/images/tensorflow.png){: style="display:block; width:50%; margin-left:auto; margin-right:auto;"} | Google Cloud Platform <br> ![Google Cloud Platform](assets/images/gcloud.png){: style="display:block; width:50%; margin-left:auto; margin-right:auto;"} |
-{: border=""}
+<table border="" style="vertical-align: top;">
+  <tbody>
+    <tr>
+      <td class="data-cell">C <br /> <img src="assets/images/c.png" alt="C" class="cell-image" /></td>
+      <td class="data-cell">C++ <br /> <img src="assets/images/cpp.png" alt="C++" class="cell-image" /></td>
+    </tr>
+    <tr>
+      <td class="data-cell">Python <br /> <img src="assets/images/python.png" alt="Python" class="cell-image" /></td>
+      <td class="data-cell">PyTorch <br /> <img src="assets/images/pytorch.png" alt="PyTorch" class="cell-image" /></td>
+    </tr>
+    <tr>
+      <td class="data-cell">TensorFlow <br /> <img src="assets/images/tensorflow.png" alt="TensorFlow" class="cell-image" /></td>
+      <td class="data-cell">Node.js <br /> <img src="assets/images/nodejs.png" alt="Node.js" class="cell-image" /></td>
+    </tr>
+    <tr>
+      <td class="data-cell">Java <br /> <img src="assets/images/java.png" alt="Java" class="cell-image" /></td>
+      <td class="data-cell">Google Cloud Platform <br /> <img src="assets/images/gcloud.png" alt="Google Cloud Platform" class="cell-image" /></td>
+    </tr>
+  </tbody>
+</table>
 
 # Projects
 {: style="text-align: center;"}
@@ -173,12 +203,6 @@ I'm a passsionate, aspiring software developer from Waterloo, Ontario in my seni
     </div>
   </div>
 </div>
-
-<style>
-table td {
-    width: 50%;
-}
-</style>
 
 |:-:|:-:|
 | Fast-TA <br> ![Fast-TA](assets/images/kama.svg "Fast-TA Speedup vs Other Library"){: style="cursor: pointer;" #fast-ta} | Arith <br> ![Arith](assets/images/arith.png "Arithmetic Encoding Diagram"){: style="cursor: pointer;" #arith} |

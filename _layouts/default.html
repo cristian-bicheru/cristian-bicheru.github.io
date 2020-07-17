@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <script src="https://use.fontawesome.com/8a54bec728.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -15,16 +16,60 @@
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+      @keyframes linkedin-anim {
+        0% {background: #ffffff; color:#0077B5;}
+        100% {background: #0077B5; color:#ffffff;}
+      }
+      .btn.linkedin {
+        background: #ffffff;
+        border-radius: 5px;
+        color:#0077B5;
+        font-size: xx-large;
+        width: fit-content;
+        margin-left: auto;
+      }
+      .btn.linkedin:hover {
+        background: #0077B5;
+        color:#ffffff;
+        animation-name: linkedin-anim;
+        animation-duration: 0.3s;
+      }
 
+      @keyframes github-anim {
+        0% {background: #ffffff; color:#000000;}
+        100% {background: #000000; color:#ffffff;}
+      }
+      .btn.github {
+        background: #ffffff;
+        border-radius: 5px;
+        color:#000000;
+        font-size: xx-large;
+        width: fit-content;
+      }
+      .btn.github:hover {
+        background: #000000;
+        color:#ffffff;
+        animation-name: github-anim;
+        animation-duration: 0.3s;
+      }
+
+      .footer-div {
+        background: #272727;
+        background-attachment: fixed !important;
+        background: linear-gradient(#3a3a39, #2c2c2c);
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        overflow: auto;
+        width: 100%;
+      }
+    </style>
   </head>
-  <body>
+  <body style="padding: 0px;">
       <div id="header">
         <nav>
-          <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-          {% if site.show_downloads %}
-            <li class="downloads"><a href="static/cristian-bicheru.pdf">Resume</a></li>
-            <li class="title">DOWNLOADS</li>
-          {% endif %}
+          <li class="fork" style="font-size: x-large;">Cristian Bicheru</li>
+          <li class="fork" style="float:right;"><a href="static/cristian-bicheru.pdf">Resume</a></li>
         </nav>
       </div><!-- end header -->
 
@@ -40,8 +85,23 @@
         {{ content }}
 
       </section>
-
     </div>
+
+    <footer>
+      <div class="footer-div">
+        <div style="float:left; padding-left:20vw;">
+          <h2>Cristian Bicheru</h2>
+          <h3>c.bicheru0@gmail.com</h3>
+          <h3>5195910414</h3>
+        </div>
+        <div style="float:right; padding-right:20vw;">
+          <br>
+          <br>
+          <a class="btn linkedin" rel="noopener noreferrer" href="https://www.linkedin.com/in/cristianbicheru/" target="_blank"><i class="fa fa-linkedin" style="padding: 0px 5px 0px 5px; margin:auto"></i></a>
+          <a class="btn github" rel="noopener noreferrer" href="https://github.com/cristian-bicheru/" target="_blank"><i class="fa fa-github" style="padding: 0px 5px 0px 5px; margin:auto"></i></a>
+        </div>
+      </div>
+    </footer>
 
     {% if site.google_analytics %}
       <script>
