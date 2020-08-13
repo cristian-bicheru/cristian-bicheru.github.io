@@ -179,7 +179,9 @@ I'm a passsionate, aspiring software engineer from Waterloo, Ontario in my senio
         <p>This software simulates a <a href="https://en.wikipedia.org/wiki/Tippe_top" target="_blank">Tippe Top</a> spinning. It implements state-of-the-art ODE solvers such as the Dormand-Prince and Runge-Kutta Methods. Euler's method was found to be too unstable for the problem. The software was written as part of an energy and momentum lab analysis for Grade 12 AP physics. The only conserved quantity was found to be angular momentum dotted with the position vector. </p>
         <h2>Tools and Technologies:</h2>
         <ul class="tools">
-            <li>C++</li>
+            <li>Processing 3</li>
+            <li>G4P</li>
+            <li>Java Matrix Package (JAMA)</li>
         </ul>
         <span class="view-github"><a href="https://github.com/cristian-bicheru/tippe-top-simulation" class="view-github-link" target="_blank">View on GitHub</a></span>
     </div>
@@ -197,7 +199,6 @@ I'm a passsionate, aspiring software engineer from Waterloo, Ontario in my senio
         <ul class="tools">
             <li>Processing 3</li>
             <li>G4P</li>
-            <li>Java Matrix Package (JAMA)</li>
         </ul>
         <span class="view-github"><a href="https://github.com/cristian-bicheru/modeling-electrostatics" class="view-github-link" target="_blank">View on GitHub</a></span>
     </div>
