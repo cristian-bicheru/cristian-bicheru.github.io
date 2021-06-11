@@ -101,7 +101,7 @@ layout: default
 
 # About Me
 {: style="text-align: center;"}
-I'm a passsionate, aspiring Mechanical Engineer from Waterloo, Ontario in my first year at the University of Waterloo. I'm currently seeking an internship or employment to gain practical experience and to expand my skillset.
+I'm a passsionate, aspiring Mechanical Engineer in my first year at the University of Waterloo. I'm currently seeking an internship or employment to gain practical experience and to expand my skillset.
 
 <div style="height:50px;"></div>
 
